@@ -1,171 +1,927 @@
 Using pre-set license
-Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'da' Physical Memory: 6081 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/David/Documents/GamedevOpgaver/unityAflevering
+/Users/cecilie/Unity/unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58245
-Successfully changed project path to: C:/Users/David/Documents/GamedevOpgaver/unityAflevering
-C:/Users/David/Documents/GamedevOpgaver/unityAflevering
+53411
+Successfully changed project path to: /Users/cecilie/Unity/unity
+/Users/cecilie/Unity/unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/David/Documents/GamedevOpgaver/unityAflevering/Assets
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/cecilie/Unity/unity/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
-    Vendor:   
-    VRAM:     3962 MB
-    Driver:   26.21.14.4614
+2021-02-19 13:36:02.804 Unity[10603:1112670] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-02-19 13:36:02.804 Unity[10603:1112670] Metal devices available: 1
+2021-02-19 13:36:02.804 Unity[10603:1112670] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-02-19 13:36:02.805 Unity[10603:1112670] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56603
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003528 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.00 ms, found 0 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000499 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 28.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.293 seconds
+- Completed reload, in  2.918 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003167 seconds.
+Registered in 0.000450 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.08 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 28.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.605 seconds
+- Completed reload, in  1.082 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
+System memory in use before: 138.4 MB.
+System memory in use after: 138.5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 3.070700 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.664200 ms  DeleteObjects: 0.132800 ms)
+Total: 3.262000 ms (FindLiveObjects: 0.261651 ms CreateObjectMapping: 0.090495 ms MarkObjects: 2.734642 ms  DeleteObjects: 0.173557 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/checkpoints.prefab
-  artifactKey: Guid(771313427009d2c4fb1f59a20432d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/checkpoints.prefab using Guid(771313427009d2c4fb1f59a20432d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0de98487eb5ed4d61446c93716038f') in 0.068632 seconds
-  Import took 0.075958 seconds .
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(f82f03713b24f8a469bf059ab62a2f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(f82f03713b24f8a469bf059ab62a2f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f58a3a167d806ed4f890091c9ce0423') in 0.332947 seconds
+  Import took 0.336366 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001208 seconds.
-  path: Assets/Prefabs/deathfloors.prefab
-  artifactKey: Guid(3febaba45b2c0ac43a4bc1b0b3c6a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/deathfloors.prefab using Guid(3febaba45b2c0ac43a4bc1b0b3c6a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373f18b47f985b758b05d18966b948fe') in 0.164092 seconds
-  Import took 0.167343 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(e33a17de90a11b647b5238b34e20a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(e33a17de90a11b647b5238b34e20a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803f98ccd7e47ace9e6206052359a101') in 0.252020 seconds
+  Import took 0.255074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001401 seconds.
-  path: Assets/Prefabs/destroydeathfloors.prefab
-  artifactKey: Guid(e8680819cffb01f40a662ab8530690e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/destroydeathfloors.prefab using Guid(e8680819cffb01f40a662ab8530690e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e391e33bbabd92ded1116067e865c7') in 0.041850 seconds
-  Import took 0.048256 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dbf32a4272fef02429db046aab30f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dbf32a4272fef02429db046aab30f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a73093b19c1bde92455d4817fb6fbf') in 0.242400 seconds
+  Import took 0.245614 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.4 MB.
+System memory in use after: 155.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 3.340696 ms (FindLiveObjects: 0.350246 ms CreateObjectMapping: 0.099180 ms MarkObjects: 2.841128 ms  DeleteObjects: 0.047677 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.133558 seconds.
-  path: Assets/Prefabs/deathfloors.prefab
-  artifactKey: Guid(3febaba45b2c0ac43a4bc1b0b3c6a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/deathfloors.prefab using Guid(3febaba45b2c0ac43a4bc1b0b3c6a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517c8880c61310672ca7473c66a397b0') in 0.056080 seconds
-  Import took 0.065175 seconds .
+  Time since last request: 133.029401 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(f8fdba8ed5eb0614cbc47795a7047f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(f8fdba8ed5eb0614cbc47795a7047f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c79c88c2beeddb8f2e86927e2327e01') in 0.264543 seconds
+  Import took 0.267245 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.335095 seconds.
-  path: Assets/Prefabs/checkpoints.prefab
-  artifactKey: Guid(771313427009d2c4fb1f59a20432d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/checkpoints.prefab using Guid(771313427009d2c4fb1f59a20432d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c2477387a74747bba591b28a52f287') in 0.024368 seconds
-  Import took 0.033687 seconds .
+  Time since last request: 53.220314 seconds.
+  path: Assets/Utilities/Prefabs/Coin.prefab
+  artifactKey: Guid(86796b58161154341a909b64be0e1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Coin.prefab using Guid(86796b58161154341a909b64be0e1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4471d2efa5242948dd12914f344eb88a') in 0.322485 seconds
+  Import took 0.327318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.756061 seconds.
-  path: Assets/Scripts/ChangeCheckpoint.cs
-  artifactKey: Guid(57df416292850a540aba22e7ec8147f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChangeCheckpoint.cs using Guid(57df416292850a540aba22e7ec8147f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4e7e34ec21792dd0ecf2c6cc3877c') in 0.021788 seconds
-  Import took 0.028227 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Utilities/Prefabs/Heart.prefab
+  artifactKey: Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Heart.prefab using Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd2c4c48710c09a9155ed0b36404fc') in 0.006461 seconds
+  Import took 0.008548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003039 seconds.
-  path: Assets/Scripts/ChangeCheckpoint.cs
-  artifactKey: Guid(57df416292850a540aba22e7ec8147f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChangeCheckpoint.cs using Guid(57df416292850a540aba22e7ec8147f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4e7e34ec21792dd0ecf2c6cc3877c') in 0.009285 seconds
-  Import took 0.014876 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/Utilities/Prefabs/Virus.prefab
+  artifactKey: Guid(2f53ee52d5b6b4a29bf4953c449dabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Virus.prefab using Guid(2f53ee52d5b6b4a29bf4953c449dabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9c5a67fbfe7084318918a59ff07e49') in 0.006268 seconds
+  Import took 0.008720 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.452277 seconds.
-  path: Assets/Scripts/Checkpoint.cs
-  artifactKey: Guid(47e32261b2334524b8e39026c4fc92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Checkpoint.cs using Guid(47e32261b2334524b8e39026c4fc92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b1c783c1f7555de633ab95fad3904a') in 0.015480 seconds
-  Import took 0.019439 seconds .
+  Time since last request: 0.000356 seconds.
+  path: Assets/Utilities/Prefabs/Timer.prefab
+  artifactKey: Guid(d1d9b7010f9a24960bb5a5ccb9ddf1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Timer.prefab using Guid(d1d9b7010f9a24960bb5a5ccb9ddf1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d27e7f39e62f4aa4d0592d73679d991') in 0.012775 seconds
+  Import took 0.018613 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001141 seconds.
-  path: Assets/Scripts/Checkpoint.cs
-  artifactKey: Guid(47e32261b2334524b8e39026c4fc92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Checkpoint.cs using Guid(47e32261b2334524b8e39026c4fc92e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b1c783c1f7555de633ab95fad3904a') in 0.014078 seconds
-  Import took 0.019280 seconds .
+  Time since last request: 503.352696 seconds.
+  path: Assets/Utilities/Prefabs/Coin.prefab
+  artifactKey: Guid(86796b58161154341a909b64be0e1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Coin.prefab using Guid(86796b58161154341a909b64be0e1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a594b14481b4fd19ed4998d9642e8f1c') in 0.030085 seconds
+  Import took 0.047960 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.989260 seconds.
-  path: Assets/Materials/Colour.mat
-  artifactKey: Guid(554ed566de9ccf34ab131d4505473114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Colour.mat using Guid(554ed566de9ccf34ab131d4505473114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd722fc49acc28510756fad2c7171ff7c') in 0.099043 seconds
-  Import took 0.102278 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/Utilities/Prefabs/Heart.prefab
+  artifactKey: Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Heart.prefab using Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f99f3a404dd9a14b3f8ce787942354') in 0.016764 seconds
+  Import took 0.019974 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(646694c47cfd52b49a29da94801b9a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(646694c47cfd52b49a29da94801b9a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4403630d2928b89af5c9c700923a33d4') in 0.039047 seconds
-  Import took 0.044619 seconds .
+  Time since last request: 0.000462 seconds.
+  path: Assets/Utilities/Prefabs/Virus.prefab
+  artifactKey: Guid(2f53ee52d5b6b4a29bf4953c449dabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Virus.prefab using Guid(2f53ee52d5b6b4a29bf4953c449dabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a0026146d58801ae6996e2bcad47a2') in 0.074312 seconds
+  Import took 0.077843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004074 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(646694c47cfd52b49a29da94801b9a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(646694c47cfd52b49a29da94801b9a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4403630d2928b89af5c9c700923a33d4') in 0.039142 seconds
-  Import took 0.043735 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Utilities/Prefabs/Heart.prefab
+  artifactKey: Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Heart.prefab using Guid(737399f3f3d7c456f92529d5cf6abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f99f3a404dd9a14b3f8ce787942354') in 0.015187 seconds
+  Import took 0.018366 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Utilities/Prefabs/Timer.prefab
+  artifactKey: Guid(d1d9b7010f9a24960bb5a5ccb9ddf1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Prefabs/Timer.prefab using Guid(d1d9b7010f9a24960bb5a5ccb9ddf1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994adb94455428afd78ea95be42cd27') in 0.005046 seconds
+  Import took 0.008083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.524911 seconds.
+  path: Assets/Utilities/Scripts/HeartScript.cs
+  artifactKey: Guid(c13fd33463b394df486c87112ab75b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/HeartScript.cs using Guid(c13fd33463b394df486c87112ab75b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450648e829b759274e381af8a89abd85') in 0.009467 seconds
+  Import took 0.014323 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.1 MB.
+System memory in use after: 165.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 2.809449 ms (FindLiveObjects: 0.372158 ms CreateObjectMapping: 0.204771 ms MarkObjects: 2.194486 ms  DeleteObjects: 0.036413 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.581293 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0f5d9cb21b022487f26558cc30755e') in 0.007330 seconds
+  Import took 0.011630 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.6 MB.
+System memory in use after: 165.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 2.132939 ms (FindLiveObjects: 0.209411 ms CreateObjectMapping: 0.060389 ms MarkObjects: 1.844574 ms  DeleteObjects: 0.017043 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.785591 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f4f03cd4bf201cc05cb154f31f191') in 0.012114 seconds
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.7 MB.
+System memory in use after: 165.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 2.465151 ms (FindLiveObjects: 0.250479 ms CreateObjectMapping: 0.071301 ms MarkObjects: 2.119648 ms  DeleteObjects: 0.021989 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.440855 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007937 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.012289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045874 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008202 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081466 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008266 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.012781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091490 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008452 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.014690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074962 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008851 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.013205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085523 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003456 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093932 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003295 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.006343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097696 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003631 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.006911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096337 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003913 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093159 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005211 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.008330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090061 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004428 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094257 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004204 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090775 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003953 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101385 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003755 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081723 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004512 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.008047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105804 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004785 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087460 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004429 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088193 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007482 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.010697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088545 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004279 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134667 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004398 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150401 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009738 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.013789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085263 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011996 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.016249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080080 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004202 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093798 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003343 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.006199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097168 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003883 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.007372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092280 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005757 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087507 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007169 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088826 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007104 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087430 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006905 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088718 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007471 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086593 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006793 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.012449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086531 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006613 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088728 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006557 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088057 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006102 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.010990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087545 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006287 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089402 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005571 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.011274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087464 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005768 seconds
+  ERROR: Build asset version error: assets/utilities/scripts/playerscript.cs in SourceAssetDB has modification time of '2021-02-19T12:53:15Z' while content on disk has modification time of '2021-02-19T12:53:21Z'
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.0 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 2.427059 ms (FindLiveObjects: 0.242701 ms CreateObjectMapping: 0.075474 ms MarkObjects: 2.089358 ms  DeleteObjects: 0.017609 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.940737 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de312f3012ee2a8f35efadc725d1cc0b') in 0.005948 seconds
+  Import took 0.010344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1871.
+Total: 2.213260 ms (FindLiveObjects: 0.283990 ms CreateObjectMapping: 0.070215 ms MarkObjects: 1.829092 ms  DeleteObjects: 0.028126 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.997876 seconds.
+  path: Assets/Utilities/Meshes/Love.fbx
+  artifactKey: Guid(26dc6a4fd490f45ba84fd6828f51fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Meshes/Love.fbx using Guid(26dc6a4fd490f45ba84fd6828f51fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c2a004c6bc73ce9464eed71aa665c') in 0.419463 seconds
+  Import took 0.422679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Utilities/Meshes/virus.fbx
+  artifactKey: Guid(75da99156f0e644cd929188905ce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Meshes/virus.fbx using Guid(75da99156f0e644cd929188905ce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3ae8df8de44c06bc3e5a07e0884596') in 0.085426 seconds
+  Import took 0.087922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831438 seconds.
+  path: Assets/Utilities/Materials/CoinMaterial.mat
+  artifactKey: Guid(25964489fb3bc4c73bf0966a13266fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Materials/CoinMaterial.mat using Guid(25964489fb3bc4c73bf0966a13266fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99602361fca1e298333945c13f4d05') in 0.261318 seconds
+  Import took 0.264622 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 2.136034 ms (FindLiveObjects: 0.252128 ms CreateObjectMapping: 0.050131 ms MarkObjects: 1.814215 ms  DeleteObjects: 0.017546 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.074324 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90d38a848608b5ba631cbf046c196af') in 0.010367 seconds
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.883720 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e739b5afd078308dc10cbc5aa9960d50') in 0.003651 seconds
+  Import took 0.008168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.254572 ms (FindLiveObjects: 0.321917 ms CreateObjectMapping: 0.085655 ms MarkObjects: 1.824257 ms  DeleteObjects: 0.019559 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.353886 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cd941571339186aca9e68a67e03636') in 0.010716 seconds
+  Import took 0.015329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 2.124698 ms (FindLiveObjects: 0.273415 ms CreateObjectMapping: 0.077860 ms MarkObjects: 1.752321 ms  DeleteObjects: 0.018932 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.228060 seconds.
+  path: Assets/Utilities/Scripts/TimeScript.cs
+  artifactKey: Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/TimeScript.cs using Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd438ea9e89f294453e6737b691acbde8') in 0.006724 seconds
+  Import took 0.009432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 1.655715 ms (FindLiveObjects: 0.187675 ms CreateObjectMapping: 0.044074 ms MarkObjects: 1.408909 ms  DeleteObjects: 0.013918 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.523971 seconds.
+  path: Assets/Utilities/Scripts/TimeScript.cs
+  artifactKey: Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/TimeScript.cs using Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b6c159a79bfc954e61330898e136c0') in 0.005769 seconds
+  Import took 0.008292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002371 seconds.
+  path: Assets/Utilities/Scripts/TimeScript.cs
+  artifactKey: Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/TimeScript.cs using Guid(5c038b3e55b7941a49fc60ff236547d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b6c159a79bfc954e61330898e136c0') in 0.006752 seconds
+  Import took 0.011901 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 2.733478 ms (FindLiveObjects: 0.307636 ms CreateObjectMapping: 0.084885 ms MarkObjects: 2.314760 ms  DeleteObjects: 0.023894 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.2 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 1.621156 ms (FindLiveObjects: 0.198168 ms CreateObjectMapping: 0.042910 ms MarkObjects: 1.365374 ms  DeleteObjects: 0.013721 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.433063 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c734cd6ba461a8b51d9456bb8f22ce00') in 0.007758 seconds
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003895 seconds.
+  path: Assets/Utilities/Scripts/PlayerScript.cs
+  artifactKey: Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utilities/Scripts/PlayerScript.cs using Guid(555476b279cec402684b8ece83f411a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c734cd6ba461a8b51d9456bb8f22ce00') in 0.009762 seconds
+  Import took 0.014167 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.7 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.258949 ms (FindLiveObjects: 0.364462 ms CreateObjectMapping: 0.070172 ms MarkObjects: 1.802015 ms  DeleteObjects: 0.020263 ms)
+

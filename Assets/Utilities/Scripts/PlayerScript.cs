@@ -16,6 +16,9 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (life < 0) {
+            // Die - respawn to start  
+        }
         
     }
 

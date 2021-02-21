@@ -22,7 +22,7 @@ public class VirusScript : MonoBehaviour
 
         if (other.name == "Player")
         {
-            other.GetComponent<PlayerScript>().life--; // life damaged 
+            other.GetComponent<PlayerControl>().life--; // life damaged 
             Destroy(gameObject); // This destroys
         }
 

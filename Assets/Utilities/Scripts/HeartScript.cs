@@ -20,7 +20,7 @@ public class HeartScript : MonoBehaviour
     private void OnTriggerEnter (Collider other){
     
         if (other.name == "Player") {
-            other.GetComponent<PlayerScript>().life++; // Adds life
+            other.GetComponent<PlayerControl>().life++; // Adds life
             Destroy (gameObject); // This destroys
         }
 

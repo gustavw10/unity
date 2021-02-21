@@ -17,7 +17,7 @@ public class TimeScript : MonoBehaviour
     void Update()
     {
       timerCount+=Time.deltaTime;  
-      Debug.Log(timerCount);
+      //Debug.Log(timerCount);
     }
 
     private void OnGUI(){

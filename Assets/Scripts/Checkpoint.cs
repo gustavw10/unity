@@ -18,6 +18,7 @@ public class Checkpoint : MonoBehaviour
         if(plyr.gameObject.tag == "Player") {
             player.transform.position = checkpoint.position;
             player.transform.rotation = checkpoint.rotation;
+            player.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
     }
 }

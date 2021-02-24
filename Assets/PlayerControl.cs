@@ -10,14 +10,12 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody rb;
     bool isgrounded = true;
     public bool hasFlight = false;
-    // Start is called before the first frame update
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
 
@@ -58,7 +56,6 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    //consider when character is jumping .. it will exit collision.
     void OnCollisionExit(Collision theCollision)
     {
         if (theCollision.gameObject.tag == "Floor")
